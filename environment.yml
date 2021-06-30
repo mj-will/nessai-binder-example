@@ -1,0 +1,17 @@
+name: nessai-environment
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - scipy>=0.16
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pytorch>=1.7.0+cpuonly
+  - tensorboard
+  - pip:
+    - nflows
+    - nessai
