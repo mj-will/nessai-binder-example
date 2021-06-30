@@ -1,0 +1,21 @@
+name: nessai-environment
+channels:
+  - default
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - scipy>=0.16
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pytorch>=1.7.0
+  - torchvision
+  - torchaudio
+  - tensorboard
+  - pip:
+    - nflows
+    - nessai
