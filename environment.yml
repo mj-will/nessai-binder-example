@@ -4,6 +4,7 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
+  - python=3.8
   - pip
   - numpy
   - pandas
