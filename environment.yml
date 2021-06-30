@@ -1,5 +1,6 @@
 name: nessai-environment
 channels:
+  - default
   - conda-forge
   - pytorch
 dependencies:
@@ -10,7 +11,10 @@ dependencies:
   - matplotlib
   - seaborn
   - tqdm
-  - pytorch>=1.7.0+cpuonly
+  - pytorch>=1.7.0
+  - torchvision
+  - torchaudio
+  - cpuonly
   - tensorboard
   - pip:
     - nflows
