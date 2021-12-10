@@ -18,4 +18,4 @@ dependencies:
   - tensorboard
   - pip:
     - nflows
-    - nessai>=0.3.0
+    - nessai>=0.4.0
